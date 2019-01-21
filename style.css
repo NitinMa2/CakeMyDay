@@ -224,6 +224,9 @@ nav ul li a:hover {
   justify-content: center;
   align-items: flex-start;
 }
+#cakes img {
+  max-width: 100vw;
+}
 .img4 {
   margin-top: -25.4vh;
 }
