@@ -36,7 +36,6 @@ $(document).ready(function(){
 
         if ($(this).scrollTop() > 1) {
         	$('.down-button').addClass("hidden");
-        	$('.content').addClass("no-select");
         }
     });
 
