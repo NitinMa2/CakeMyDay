@@ -34,10 +34,10 @@ $(document).ready(function(){
         	$('footer').css("opacity","0");
         }
 
-        if ($(this).scrollTop() > 1) {
-        	$('.down-button').addClass("hidden");
-        	$('.content').addClass("no-select");
-        }
+        // if ($(this).scrollTop() > 1) {
+        // 	$('.down-button').addClass("hidden");
+        // 	$('.content').addClass("no-select");
+        // }
     });
 
 })
