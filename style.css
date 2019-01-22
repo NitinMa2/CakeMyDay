@@ -1,14 +1,13 @@
 * {
   transition: all 0.5s;
-  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   font-family: Montserrat;
   font-size: 70px;
+  overflow-x: hidden;
 }
 
 .center {
