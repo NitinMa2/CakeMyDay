@@ -161,7 +161,7 @@ nav ul li a:hover {
   bottom: 0;
   z-index: -1;
   overflow: hidden;
-  background: url("./video/colours-02.jpg");
+  background: url("/video/colours-02.jpg");
 }
 #hero .video-wrapper video {
   width: 100vw;
@@ -234,7 +234,7 @@ nav ul li a:hover {
 /*Footer*/
 footer {
   height: 200px;
-  background: url("./video/colours-02.jpg");
+  background: url("../video/colours-02.jpg");
   z-index: -30;
   position: sticky;
   width: 100%;
