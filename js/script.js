@@ -10,6 +10,7 @@ $(document).ready(function(){
     var a = "";
     a += '<video src="video/' + b[d] + '.mp4" poster="video/' + b[d] + '.jpg" autoplay muted loop>';
     $(".video-wrapper").append($(a));
+    $("footer").addClass('col0'+(d+1));
 
 	$(window).scroll(function(){ 
 	//Show Nav after 550px                         

@@ -234,13 +234,30 @@ nav ul li a:hover {
 /*Footer*/
 footer {
   height: 200px;
-  background: url("../video/colours-02.jpg");
   z-index: -30;
   position: sticky;
   width: 100%;
   bottom: 0;
   margin-bottom: -15vh;
   opacity: 0;
+}
+.col01{
+  background: url("../video/colours-01.jpg");
+}
+.col02{
+  background: url("../video/colours-02.jpg");
+}
+.col03{
+  background: url("../video/colours-03.jpg");
+}
+.col04{
+  background: url("../video/colours-04.jpg");
+}
+.col05{
+  background: url("../video/colours-05.jpg");
+}
+.col06{
+  background: url("../video/colours-06.jpg");
 }
 footer h6 {
   color: white;
