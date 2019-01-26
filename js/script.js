@@ -4,6 +4,13 @@ $(document).ready(function(){
 		$('nav').toggleClass('active')
 	});
 
+    // Background video
+    var b = ["colours-01", "colours-02", "colours-03", "colours-04", "colours-05", "colours-06"];
+    var d = Math.floor(Math.random() * b.length);
+    var a = "";
+    a += '<video src="video/' + b[d] + '.mp4" poster="video/' + b[d] + '.jpg" autoplay muted loop>';
+    $(".video-wrapper").append($(a));
+
 	$(window).scroll(function(){ 
 	//Show Nav after 550px                         
         if ($(this).scrollTop() > 550) {

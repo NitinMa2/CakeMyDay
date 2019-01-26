@@ -123,7 +123,7 @@ nav ul li a:hover {
 
 /*Intro*/
 body{
-  background-image: url('../video/colours-02.jpg');
+  /*background-image: url('../video/colours-02.jpg');*/
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -293,3 +293,26 @@ font-size:
   z-index:16;
   border-radius:50%;
 }
+/*Intro*/
+
+/*Video*/
+.video-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+  background: url("./video/colours-02.jpg");
+}
+.video-wrapper video {
+  width: 100vw;
+  height: 90vh;
+  background-position: center;
+  background-size: contain;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+/*Video*/
