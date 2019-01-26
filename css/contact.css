@@ -174,48 +174,12 @@ hr {
 }
 /*Intro*/
 
-/*About*/
-#about {
-  background-color: white;
-  padding: 16vh;
-  margin-top: -10vh;
-  /*margin-bottom: -10vh;*/
-}
-.img {
-  float: right;
-  width: 30vw;
-  margin: 0 5vw 15px 20px;
-  padding: 15px;
-}
-img {
-  width: 40vw;
-}
-#about p {
-  font-size: 0.3em;
-  width: 40vw;
-}
-/*About*/
-
 @media (max-width: 991px) {
   #intro p {
     width: 80vw;
   }
   hr {
     width: 130px;
-  }
-  .img {
-    float: none;
-    width: 100%;
-  }
-  img {
-    width: 50vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #about p {
-    font-size: 0.2em;
-    width: 80vw;
   }
 }
 
@@ -232,13 +196,38 @@ img {
 }
 
 @media (max-width: 551px) {
-  #about {
-    padding: 8vh;
-  }
   hr {
     width: 100px;
   }
-  #about p {
-    font-size: 0.2em;
+}
+
+/*Contact*/
+/* Create three equal columns that floats next to each other */
+#contact {
+  background-color: white;
+  font-size: 0.3em;
+  text-align: center;
+}
+span {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px 0;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 930px) {
+  .column {
+    width: 100%;
   }
 }
+/*Contact*/

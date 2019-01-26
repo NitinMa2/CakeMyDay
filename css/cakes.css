@@ -174,27 +174,35 @@ hr {
 }
 /*Intro*/
 
-/*About*/
-#about {
+/*Cakes*/
+#cakes {
+  min-height: 100vh;
+  padding-bottom: 20vh;
+  margin-bottom: -15vh;
   background-color: white;
-  padding: 16vh;
-  margin-top: -10vh;
-  /*margin-bottom: -10vh;*/
 }
-.img {
-  float: right;
-  width: 30vw;
-  margin: 0 5vw 15px 20px;
-  padding: 15px;
+#cakes div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
-img {
-  width: 40vw;
+#cakes img {
+  max-width: 100vw;
 }
-#about p {
-  font-size: 0.3em;
-  width: 40vw;
+.img4 {
+  margin-top: -25.4vh;
 }
-/*About*/
+/*Cakes*/
+
+@media only screen and (max-width: 1000px) {
+  .img1 {
+    width: 500px;
+  }
+  .img4 {
+    margin-top: 0;
+  }
+}
 
 @media (max-width: 991px) {
   #intro p {
@@ -202,20 +210,6 @@ img {
   }
   hr {
     width: 130px;
-  }
-  .img {
-    float: none;
-    width: 100%;
-  }
-  img {
-    width: 50vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #about p {
-    font-size: 0.2em;
-    width: 80vw;
   }
 }
 
@@ -232,13 +226,7 @@ img {
 }
 
 @media (max-width: 551px) {
-  #about {
-    padding: 8vh;
-  }
   hr {
     width: 100px;
-  }
-  #about p {
-    font-size: 0.2em;
   }
 }
